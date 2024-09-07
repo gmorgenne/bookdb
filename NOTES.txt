@@ -1,0 +1,32 @@
+book collection description site
+used to document books in library
+need extra information about most books
+
+book data:
+- title
+- author *
+- genre *
+- special edition (owlcrate, waterstones, ARC) +*
+- first edition (checkbox) *
+- signed (digital, hand signed, sticker. Can have multiple values) +*
+- cover type (hard/paper) *
+- locale *
+- images
+- features (stencil edges, embossed cover) +*
+key:
++ Dropdown list of options, with ability to add new
+* facetable
+
+nextjs app
+postgres db
+shadcn/ui components
+    - look at combobox for dropdown list with search
+    - need to be able to create new option
+
+
+feature list:
+- login
+- create collection
+- add books to collection
+- display books via table (sortable, filterable)
+- display books via card (sortable, filterable, also show images)
