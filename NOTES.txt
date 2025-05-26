@@ -2,6 +2,11 @@ book collection description site
 used to document books in library
 need extra information about most books
 
+collection data:
+- type
+- public/private (visible to others vs only visible to users)
+- owners (reference to users that can log in and view/manage collection)
+
 book data:
 - title
 - author *
@@ -13,6 +18,9 @@ book data:
 - locale *
 - images
 - features (stencil edges, embossed cover) +*
+- tradable (mark an item as interested in trading it)
+- condition
+- purchase price?
 key:
 + Dropdown list of options, with ability to add new
 * facetable
